@@ -1,6 +1,6 @@
 const mcache = require("memory-cache");
 
-const DEFAULT_DURATION = 10800; // 3 hours
+const DEFAULT_DURATION = 600; // 10 minutes
 
 const cache = (duration = DEFAULT_DURATION) => {
   return (req, res, next) => {
